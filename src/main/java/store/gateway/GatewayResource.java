@@ -23,7 +23,7 @@ public class GatewayResource {
     @GetMapping("/")
     public ResponseEntity<String> hello() {
         return ResponseEntity.ok()
-            .body("API for Store");
+            .body("API for Store by In5p3R");
     }
     
 }
